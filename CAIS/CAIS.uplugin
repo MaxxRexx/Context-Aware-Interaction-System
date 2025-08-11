@@ -1,0 +1,32 @@
+{
+	"FileVersion": 3,
+	"Version": 1,
+	"VersionName": "1.0",
+	"FriendlyName": "CAIS",
+	"Description": "Context-Aware Interaction System",
+	"Category": "Other",
+	"CreatedBy": "Ibrahim Akinde",
+	"CreatedByURL": "https://www.ibrahimakinde.com",
+	"DocsURL": "",
+	"MarketplaceURL": "",
+	"SupportURL": "Discord: ragnar9805",
+	"EngineVersion": "5.2.0",
+	"CanContainContent": true,
+	"Installed": true,
+	"Modules": [
+		{
+			"Name": "CAIS",
+			"Type": "Runtime",
+			"LoadingPhase": "Default",
+			"AdditionalDependencies": [
+				"GameplayAbilities"
+			]
+		}
+	],
+	"Plugins": [
+		{
+			"Name": "GameplayAbilities",
+			"Enabled": true
+		}
+	]
+}
